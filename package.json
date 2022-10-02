@@ -1,5 +1,4 @@
 {
-  "homepage": "https://DABarclay.github.io/Ocean-Cats",
   "name": "candy-machine-ui",
   "version": "0.3.0",
   "private": true,
@@ -32,8 +31,6 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "lint": "prettier -c 'src/**/*.{ts,tsx}' && npm run lint:eslint",
     "lint:eslint": "eslint 'src/**/*.{ts,tsx}'",
