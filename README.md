@@ -1,1 +1,1 @@
-# Metaplex Candy Machine Reference UI
+# Ocean Cats Candy Machine
