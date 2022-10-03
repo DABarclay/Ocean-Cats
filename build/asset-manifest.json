@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Ocean-Cats/static/css/main.1b9fee53.chunk.css",
-    "main.js": "/Ocean-Cats/static/js/main.69434f36.chunk.js",
-    "main.js.map": "/Ocean-Cats/static/js/main.69434f36.chunk.js.map",
-    "runtime-main.js": "/Ocean-Cats/static/js/runtime-main.8c56e756.js",
-    "runtime-main.js.map": "/Ocean-Cats/static/js/runtime-main.8c56e756.js.map",
-    "static/js/2.cb79e096.chunk.js": "/Ocean-Cats/static/js/2.cb79e096.chunk.js",
-    "static/js/2.cb79e096.chunk.js.map": "/Ocean-Cats/static/js/2.cb79e096.chunk.js.map",
-    "static/js/3.25f3af30.chunk.js": "/Ocean-Cats/static/js/3.25f3af30.chunk.js",
-    "static/js/3.25f3af30.chunk.js.map": "/Ocean-Cats/static/js/3.25f3af30.chunk.js.map",
+    "main.css": "/Ocean-Cats/static/css/main.926d8080.chunk.css",
+    "main.js": "/Ocean-Cats/static/js/main.90911c58.chunk.js",
+    "main.js.map": "/Ocean-Cats/static/js/main.90911c58.chunk.js.map",
+    "runtime-main.js": "/Ocean-Cats/static/js/runtime-main.e79f432c.js",
+    "runtime-main.js.map": "/Ocean-Cats/static/js/runtime-main.e79f432c.js.map",
+    "static/js/2.fcf17796.chunk.js": "/Ocean-Cats/static/js/2.fcf17796.chunk.js",
+    "static/js/2.fcf17796.chunk.js.map": "/Ocean-Cats/static/js/2.fcf17796.chunk.js.map",
+    "static/js/3.1ca9b3d8.chunk.js": "/Ocean-Cats/static/js/3.1ca9b3d8.chunk.js",
+    "static/js/3.1ca9b3d8.chunk.js.map": "/Ocean-Cats/static/js/3.1ca9b3d8.chunk.js.map",
     "index.html": "/Ocean-Cats/index.html",
-    "static/css/main.1b9fee53.chunk.css.map": "/Ocean-Cats/static/css/main.1b9fee53.chunk.css.map",
-    "static/js/2.cb79e096.chunk.js.LICENSE.txt": "/Ocean-Cats/static/js/2.cb79e096.chunk.js.LICENSE.txt",
+    "static/css/main.926d8080.chunk.css.map": "/Ocean-Cats/static/css/main.926d8080.chunk.css.map",
+    "static/js/2.fcf17796.chunk.js.LICENSE.txt": "/Ocean-Cats/static/js/2.fcf17796.chunk.js.LICENSE.txt",
     "static/media/connectpageart.410b6018.png": "/Ocean-Cats/static/media/connectpageart.410b6018.png",
     "static/media/oceancatslogo.ce490f58.png": "/Ocean-Cats/static/media/oceancatslogo.ce490f58.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8c56e756.js",
-    "static/js/2.cb79e096.chunk.js",
-    "static/css/main.1b9fee53.chunk.css",
-    "static/js/main.69434f36.chunk.js"
+    "static/js/runtime-main.e79f432c.js",
+    "static/js/2.fcf17796.chunk.js",
+    "static/css/main.926d8080.chunk.css",
+    "static/js/main.90911c58.chunk.js"
   ]
 }

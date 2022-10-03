@@ -33,10 +33,12 @@ import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 
 import oceancatslogo from "./oceancatslogo.png"
 import connectpageart from "./connectpageart.png"
+import OtterHome from "./OtterHome.png"
 
 import { SocialIcon } from 'react-social-icons';
 const twitter = <SocialIcon url="https://twitter.com/medusa_protocol" bgColor="#000000" fgColor="#FFA500" style={{ height: 45, width: 45 }}/>
 const telegram = <SocialIcon url="https://t.me/medusaprotocol" network="telegram" bgColor="#000000" fgColor="#FFA500" style={{ height: 45, width: 45 }}/>
+ 
 
 const ConnectButton = styled(WalletDialogButton)`
   width: 100%;
@@ -500,9 +502,11 @@ const Home = (props: HomeProps) => {
   return (
     <><div className="title">
         <div className="titlewrapper">
+        <a className="linkhome" href="https://oceancats.club/">
           <div className="titleocean">OCEAN</div>
           <div className="titlecats">CATS</div>
           <img className="oceancatslogo" src={oceancatslogo}></img>
+        </a>
         </div>
     </div>
     <Container style={{ marginTop: 40, marginBottom: 20 }}>
@@ -523,6 +527,7 @@ const Home = (props: HomeProps) => {
                       <div className="socials">
                           <div className="telegram">{telegram}</div>
                           <div className="twitter">{twitter}</div>
+                          <a href="https://oceancats.club/"><img className="OtterHome" src={OtterHome}></img></a>
                       </div>
                   </div>
                     <div className="connectinfo">Mint here an OceanCats NFT. Join a community building an animated cartoon show through the Solana Chain. You are able to mint 1 otter.</div>
@@ -637,6 +642,7 @@ const Home = (props: HomeProps) => {
                       <div className="socials">
                           <div className="telegram">{telegram}</div>
                           <div className="twitter">{twitter}</div>
+                          <a href="https://oceancats.club/"><img className="OtterHome" src={OtterHome}></img></a>
                       </div>
                     </div>
                     <div className="connectinfo">Mint here an OceanCats NFT. Join a community building an animated cartoon show through the Solana Chain. You are able to mint 1 otter.</div>
