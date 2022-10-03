@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Ocean-Cats/static/css/main.54ea7f5b.chunk.css",
-    "main.js": "/Ocean-Cats/static/js/main.dc919da9.chunk.js",
-    "main.js.map": "/Ocean-Cats/static/js/main.dc919da9.chunk.js.map",
+    "main.css": "/Ocean-Cats/static/css/main.6d6d7f35.chunk.css",
+    "main.js": "/Ocean-Cats/static/js/main.90911c58.chunk.js",
+    "main.js.map": "/Ocean-Cats/static/js/main.90911c58.chunk.js.map",
     "runtime-main.js": "/Ocean-Cats/static/js/runtime-main.e79f432c.js",
     "runtime-main.js.map": "/Ocean-Cats/static/js/runtime-main.e79f432c.js.map",
     "static/js/2.fcf17796.chunk.js": "/Ocean-Cats/static/js/2.fcf17796.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.1ca9b3d8.chunk.js": "/Ocean-Cats/static/js/3.1ca9b3d8.chunk.js",
     "static/js/3.1ca9b3d8.chunk.js.map": "/Ocean-Cats/static/js/3.1ca9b3d8.chunk.js.map",
     "index.html": "/Ocean-Cats/index.html",
-    "static/css/main.54ea7f5b.chunk.css.map": "/Ocean-Cats/static/css/main.54ea7f5b.chunk.css.map",
+    "static/css/main.6d6d7f35.chunk.css.map": "/Ocean-Cats/static/css/main.6d6d7f35.chunk.css.map",
     "static/js/2.fcf17796.chunk.js.LICENSE.txt": "/Ocean-Cats/static/js/2.fcf17796.chunk.js.LICENSE.txt",
     "static/media/connectpageart.410b6018.png": "/Ocean-Cats/static/media/connectpageart.410b6018.png",
     "static/media/oceancatslogo.ce490f58.png": "/Ocean-Cats/static/media/oceancatslogo.ce490f58.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.e79f432c.js",
     "static/js/2.fcf17796.chunk.js",
-    "static/css/main.54ea7f5b.chunk.css",
-    "static/js/main.dc919da9.chunk.js"
+    "static/css/main.6d6d7f35.chunk.css",
+    "static/js/main.90911c58.chunk.js"
   ]
 }
