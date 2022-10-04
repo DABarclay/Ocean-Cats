@@ -1,20 +1,19 @@
 body {
   background: #000000;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
-.title{
+.title {
   width: 100vw;
   display: flex;
 }
@@ -27,7 +26,7 @@ code {
   padding-top: 40px;
 }
 
-.linkhome{
+.linkhome {
   width: auto;
   justify-content: center;
   align-items: center;
@@ -38,32 +37,33 @@ code {
   text-decoration: none;
 }
 
-.titleocean, .titlecats {
+.titleocean,
+.titlecats {
   font-size: 40px;
   font-weight: 800;
 }
 
-.titleocean{
+.titleocean {
   color: white;
 }
 
 .titlecats {
-  color: #F1AE0C;
+  color: #f1ae0c;
 }
 
-.oceancatslogo{
+.oceancatslogo {
   padding-left: 20px;
   height: 60px;
   width: 60px;
 }
 
-.box{
+.box {
   display: flex;
   position: relative;
   width: auto;
   height: auto;
   border-radius: 20px;
-  border: 5px solid #F1AE0C;
+  border: 5px solid #f1ae0c;
   justify-content: space-around;
 }
 
@@ -72,12 +72,15 @@ code {
   font-weight: 800;
 }
 
-.connecttitlecontainer, .minttitlecontainer {
+.connecttitlecontainer,
+.minttitlecontainer {
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-.connecttitlecontainer, .minttitlecontainer, .socials {
+.connecttitlecontainer,
+.minttitlecontainer,
+.socials {
   display: flex;
   align-items: center;
   justify-content: left;
@@ -89,18 +92,18 @@ code {
   margin-left: 10px;
 }
 
-.telegram, .twitter {
+.telegram,
+.twitter {
   border-radius: 25px;
-  border: 2.5px solid #F1AE0C;
+  border: 2.5px solid #f1ae0c;
   margin-left: 10px;
-
 }
 
 .socials {
   margin-left: 30px;
 }
 
-.connectinfo{
+.connectinfo {
   padding-bottom: 20px;
   color: rgb(204, 200, 200);
 }
@@ -110,19 +113,20 @@ code {
   padding: 40px 40px 40px 40px;
 }
 
-.connectcontainer, .mintpagecontainer  {
+.connectcontainer,
+.mintpagecontainer {
   display: flex;
   align-items: center;
 }
 
-.pageart{
+.pageart {
   margin: 40px;
   display: flex;
   justify-content: center;
   width: 340px;
   height: 340px;
   border-radius: 40px;
-  border: 10px solid white; 
+  border: 10px solid white;
 }
 
 .pageartcontainer {
@@ -138,67 +142,60 @@ code {
 }
 
 @media screen and (max-width: 1265px) {
-
-  .connecttitlecontainer, .minttitlecontainer {
+  .connecttitlecontainer,
+  .minttitlecontainer {
     align-items: center;
     display: block;
     justify-content: center;
   }
 
-  .socials, .telegram {
+  .socials,
+  .telegram {
     margin: 0px;
   }
-  
+
   .connecttitle {
     padding-bottom: 5px;
   }
-
 }
 
-
-
-
 @media screen and (max-width: 1000px) {
-  
-  .connectcontainer, .mintpagecontainer{
+  .connectcontainer,
+  .mintpagecontainer {
     display: block;
     justify-content: center;
     align-items: center;
   }
-  
+
   .connecttitle {
     display: flex;
     justify-content: center;
-    Width: 100%;
+    width: 100%;
   }
 
-  .socials{
+  .socials {
     width: 100%;
     margin-left: 0px;
     margin-top: 10px;
     justify-content: center;
   }
-
-
 }
 
 @media screen and (max-width: 700px) {
-  
- .pageart {
+  .pageart {
     margin-top: 0;
     width: 60vw;
     height: 60vw;
   }
-
 }
 
 @media screen and (max-width: 550px) {
-
   .connecttitle {
     font-size: 7.5vw;
   }
-  
-  .titleocean, .titlecats {
+
+  .titleocean,
+  .titlecats {
     font-size: 7.5vw;
   }
 
@@ -218,5 +215,4 @@ code {
   .connectcontent {
     padding-bottom: 10px;
   }
-
 }

@@ -31,14 +31,28 @@ import { MintButton } from "./MintButton";
 import { GatewayProvider } from "@civic/solana-gateway-react";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 
-import oceancatslogo from "./oceancatslogo.png"
-import connectpageart from "./connectpageart.png"
-import OtterHome from "./OtterHome.png"
+import oceancatslogo from "./oceancatslogo.png";
+import connectpageart from "./connectpageart.png";
+import OtterHome from "./OtterHome.png";
 
-import { SocialIcon } from 'react-social-icons';
-const twitter = <SocialIcon url="https://twitter.com/medusa_protocol" bgColor="#000000" fgColor="#FFA500" style={{ height: 45, width: 45 }}/>
-const telegram = <SocialIcon url="https://t.me/medusaprotocol" network="telegram" bgColor="#000000" fgColor="#FFA500" style={{ height: 45, width: 45 }}/>
- 
+import { SocialIcon } from "react-social-icons";
+const twitter = (
+  <SocialIcon
+    url="https://twitter.com/medusa_protocol"
+    bgColor="#000000"
+    fgColor="#FFA500"
+    style={{ height: 45, width: 45 }}
+  />
+);
+const telegram = (
+  <SocialIcon
+    url="https://t.me/medusaprotocol"
+    network="telegram"
+    bgColor="#000000"
+    fgColor="#FFA500"
+    style={{ height: 45, width: 45 }}
+  />
+);
 
 const ConnectButton = styled(WalletDialogButton)`
   width: 100%;
@@ -52,10 +66,7 @@ const ConnectButton = styled(WalletDialogButton)`
   border-radius: 40px;
 `;
 
-
-const MintContainer = styled.div`
-
-`; // add your owns styles here
+const MintContainer = styled.div``; // add your owns styles here
 
 export interface HomeProps {
   candyMachineId?: anchor.web3.PublicKey;
@@ -500,46 +511,54 @@ const Home = (props: HomeProps) => {
   }, [refreshCandyMachineState]);
 
   return (
-    <><div className="title">
+    <>
+      <div className="title">
         <div className="titlewrapper">
-        <a className="linkhome" href="https://oceancats.club/">
-          <div className="titleocean">OCEAN</div>
-          <div className="titlecats">CATS</div>
-          <img className="oceancatslogo" src={oceancatslogo}></img>
-        </a>
+          <a className="linkhome" href="https://oceancats.club/">
+            <div className="titleocean">OCEAN</div>
+            <div className="titlecats">CATS</div>
+            <img className="oceancatslogo" src={oceancatslogo}></img>
+          </a>
         </div>
-    </div>
-    <Container style={{ marginTop: 40, marginBottom: 20 }}>
-      <div className="box">
-            <Paper
-              style={{
-                padding: 24,
-                borderRadius: 16,
-                backgroundColor: "#00000000",
-              }}
-            >
-              {!wallet.connected ? (
-                <div className="connectcontainer">
-                  <div className="connectcontent">
-                    <div className="connecttitlecontainer">
-                      <div className="connecttitle">MINT AN OTTER</div>
-                      <div className="socials">
-                          <div className="telegram">{telegram}</div>
-                          <div className="twitter">{twitter}</div>
-                          <a href="https://oceancats.club/"><img className="OtterHome" src={OtterHome}></img></a>
-                      </div>
+      </div>
+      <Container style={{ marginTop: 40, marginBottom: 20 }}>
+        <div className="box">
+          <Paper
+            style={{
+              padding: 24,
+              borderRadius: 16,
+              backgroundColor: "#00000000",
+            }}
+          >
+            {!wallet.connected ? (
+              <div className="connectcontainer">
+                <div className="connectcontent">
+                  <div className="connecttitlecontainer">
+                    <div className="connecttitle">MINT AN OTTER</div>
+                    <div className="socials">
+                      <div className="telegram">{telegram}</div>
+                      <div className="twitter">{twitter}</div>
+                      <a href="https://oceancats.club/">
+                        <img className="OtterHome" src={OtterHome}></img>
+                      </a>
+                    </div>
                   </div>
-                    <div className="connectinfo">Mint here an OceanCats NFT. Join a community building an animated cartoon show through the Solana Chain. You are able to mint 1 otter.</div>
-                    <><ConnectButton>Connect Wallet</ConnectButton></>
-                    <div className="solprice">COST: 0 SOL</div>
+                  <div className="connectinfo">
+                    Mint here an OceanCats NFT. Join a community building an
+                    animated cartoon show through the Solana Chain. You are able
+                    to mint 1 otter.
                   </div>
-                  <div className="pageartcontainer">
-                  <img className="pageart" src={connectpageart}></img>
-                  </div>
+                  <>
+                    <ConnectButton>Connect Wallet</ConnectButton>
+                  </>
+                  <div className="solprice">COST: 0 SOL</div>
                 </div>
-                
-              ) : (
-                <>
+                <div className="pageartcontainer">
+                  <img className="pageart" src={connectpageart}></img>
+                </div>
+              </div>
+            ) : (
+              <>
                 <div className="mintpagecontainer">
                   <div className="connectcontent">
                     {candyMachine && (
@@ -582,7 +601,9 @@ const Home = (props: HomeProps) => {
                           </Typography>
                         </Grid>
                         <Grid item xs={5}>
-                          {isActive && endDate && Date.now() < endDate.getTime() ? (
+                          {isActive &&
+                          endDate &&
+                          Date.now() < endDate.getTime() ? (
                             <>
                               <MintCountdown
                                 key="endSettings"
@@ -635,16 +656,21 @@ const Home = (props: HomeProps) => {
                       </Grid>
                     )}
 
-
                     <div className="minttitlecontainer">
                       <div className="connecttitle">MINT AN OTTER</div>
                       <div className="socials">
-                          <div className="telegram">{telegram}</div>
-                          <div className="twitter">{twitter}</div>
-                          <a href="https://oceancats.club/"><img className="OtterHome" src={OtterHome}></img></a>
+                        <div className="telegram">{telegram}</div>
+                        <div className="twitter">{twitter}</div>
+                        <a href="https://oceancats.club/">
+                          <img className="OtterHome" src={OtterHome}></img>
+                        </a>
                       </div>
                     </div>
-                    <div className="connectinfo">Mint here an OceanCats NFT. Join a community building an animated cartoon show through the Solana Chain. You are able to mint 1 otter.</div>
+                    <div className="connectinfo">
+                      Mint here an OceanCats NFT. Join a community building an
+                      animated cartoon show through the Solana Chain. You are
+                      able to mint 1 otter.
+                    </div>
 
                     <MintContainer>
                       {candyMachine?.state.isActive &&
@@ -690,19 +716,22 @@ const Home = (props: HomeProps) => {
                         />
                       )}
                     </MintContainer>
+                  </div>
+                  <div className="pageartcontainer">
+                    <img className="pageart" src={connectpageart}></img>
+                  </div>
                 </div>
-                <div className="pageartcontainer">
-                  <img className="pageart" src={connectpageart}></img>
-                </div>
-              </div>
-            </>
-          )}
-          
-            </Paper>
+              </>
+            )}
+          </Paper>
         </div>
         <Snackbar
           open={alertState.open}
-          autoHideDuration={alertState.hideDuration === undefined ? 6000 : alertState.hideDuration}
+          autoHideDuration={
+            alertState.hideDuration === undefined
+              ? 6000
+              : alertState.hideDuration
+          }
           onClose={() => setAlertState({ ...alertState, open: false })}
         >
           <Alert
@@ -712,7 +741,8 @@ const Home = (props: HomeProps) => {
             {alertState.message}
           </Alert>
         </Snackbar>
-      </Container></>
+      </Container>
+    </>
   );
 };
 
