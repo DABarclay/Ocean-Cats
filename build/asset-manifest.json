@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Ocean-Cats/static/css/main.4b913ce5.chunk.css",
+    "main.css": "/Ocean-Cats/static/css/main.5fecaa3f.chunk.css",
     "main.js": "/Ocean-Cats/static/js/main.c1838a00.chunk.js",
     "main.js.map": "/Ocean-Cats/static/js/main.c1838a00.chunk.js.map",
     "runtime-main.js": "/Ocean-Cats/static/js/runtime-main.e79f432c.js",
@@ -10,7 +10,7 @@
     "static/js/3.1ca9b3d8.chunk.js": "/Ocean-Cats/static/js/3.1ca9b3d8.chunk.js",
     "static/js/3.1ca9b3d8.chunk.js.map": "/Ocean-Cats/static/js/3.1ca9b3d8.chunk.js.map",
     "index.html": "/Ocean-Cats/index.html",
-    "static/css/main.4b913ce5.chunk.css.map": "/Ocean-Cats/static/css/main.4b913ce5.chunk.css.map",
+    "static/css/main.5fecaa3f.chunk.css.map": "/Ocean-Cats/static/css/main.5fecaa3f.chunk.css.map",
     "static/js/2.b64c715f.chunk.js.LICENSE.txt": "/Ocean-Cats/static/js/2.b64c715f.chunk.js.LICENSE.txt",
     "static/media/OtterHome.fea042ea.png": "/Ocean-Cats/static/media/OtterHome.fea042ea.png",
     "static/media/connectpageart.410b6018.png": "/Ocean-Cats/static/media/connectpageart.410b6018.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.e79f432c.js",
     "static/js/2.b64c715f.chunk.js",
-    "static/css/main.4b913ce5.chunk.css",
+    "static/css/main.5fecaa3f.chunk.css",
     "static/js/main.c1838a00.chunk.js"
   ]
 }

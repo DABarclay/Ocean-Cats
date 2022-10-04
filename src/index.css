@@ -137,6 +137,26 @@ code {
   margin-top: 10px;
 }
 
+@media screen and (max-width: 1265px) {
+
+  .connecttitlecontainer, .minttitlecontainer {
+    align-items: center;
+    display: block;
+    justify-content: center;
+  }
+
+  .socials, .telegram {
+    margin: 0px;
+  }
+  
+  .connecttitle {
+    padding-bottom: 5px;
+  }
+
+}
+
+
+
 
 @media screen and (max-width: 1000px) {
   
@@ -146,15 +166,10 @@ code {
     align-items: center;
   }
   
-}
-
-@media screen and (max-width: 700px) {
-  
-
-  .connecttitlecontainer, .minttitlecontainer {
-    align-items: center;
-    display: block;
+  .connecttitle {
+    display: flex;
     justify-content: center;
+    Width: 100%;
   }
 
   .socials{
@@ -163,10 +178,13 @@ code {
     margin-top: 10px;
     justify-content: center;
   }
-  .connecttitle {
-    display: flex;
-    justify-content: center;
-  }
+
+
+}
+
+@media screen and (max-width: 700px) {
+  
+  
 
  .pageart {
     margin-top: 0;
@@ -194,6 +212,14 @@ code {
 
   .connecttitlecontainer {
     margin-top: -40px;
+  }
+
+  .pageart {
+    margin-bottom: 0px;
+  }
+
+  .connectcontent {
+    padding-bottom: 10px;
   }
 
 }

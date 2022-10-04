@@ -514,7 +514,6 @@ const Home = (props: HomeProps) => {
             <Paper
               style={{
                 padding: 24,
-                paddingBottom: 10,
                 borderRadius: 16,
                 backgroundColor: "#00000000",
               }}
@@ -698,14 +697,7 @@ const Home = (props: HomeProps) => {
               </div>
             </>
           )}
-          <Typography
-            variant="caption"
-            align="center"
-            display="block"
-            style={{ marginTop: 7, color: "grey" }}
-          >
-            Powered by METAPLEX
-          </Typography>
+          
             </Paper>
         </div>
         <Snackbar
